@@ -1,1 +1,1 @@
-console.log('hi')
+console.log("type challenge");

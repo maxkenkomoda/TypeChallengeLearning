@@ -1,11 +1,12 @@
 version: "3"
 
 services:
-  YOUR-PROJECT-NAME:
+  type-challenge:
     build:
       context: .
       dockerfile: Dockerfile.dev
     ports:
       - "8080:8080"
-      - ./src:/app/src
+    volumes:
+      - "./src:/app/src"
     tty: true
