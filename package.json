@@ -1,5 +1,5 @@
 {
-  "name": "max-ts-project-init",
+  "name": "TypeChallengeLearning",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,5 +12,18 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {}
+  "devDependencies": {
+    "@cybozu/eslint-config": "^17.0.3",
+    "@types/node": "^18.8.2",
+    "eslint": "^8.24.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.7.1",
+    "ts-loader": "^9.4.1",
+    "ts-node": "^10.9.1",
+    "tsc-watch": "^5.0.3",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
 }
